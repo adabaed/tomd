@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.idea/
+*.log
+*.bak
+*.swp
+*.swo
+.env
+*.pyc
+*.pyo
+*.egg-info/
+*.iml
+.DS_Store
