@@ -3,7 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name='tomd',
     version='0.1',
-    packages=find_packages(),
+    author='adabaed',
+    packages=['src'],
     include_package_data=True,
     install_requires=[
         'click',
@@ -12,6 +13,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        tomd=main:tomd
+        tomd=src.main:tomd
     '''
 )
